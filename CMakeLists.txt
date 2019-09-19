@@ -15,4 +15,4 @@ target_include_directories(hello PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
 target_link_libraries (hello ${Qt5Test_LIBRARIES})
 
 enable_testing()
-add_test (NAME hello COMMAND hello)
+add_test (NAME hello COMMAND hello -vs)
